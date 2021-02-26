@@ -1,0 +1,149 @@
+/*.technique5 {
+    width:100px;
+    padding:15px;
+    filter:grayscale(100%);
+    transition:1s;
+
+}
+.technique5:hover{
+    
+    filter:grayscale(0);
+    transition:1s;
+    transform:scale(3.5);
+
+
+}*/
+/*#cellule{
+    width : 100%;
+    min-height: 100vh;
+    background:yellow;
+    position:relative;
+    display: grid;
+    grid-template-columns: repeat(4,minmax(200px, 1fr));
+    grid-template-rows: 1fr 1fr;
+    grid-gap:2px;
+}*/
+.example-image-link{
+    width:230px;
+    height:500px;
+    padding:5px;
+}
+body{
+    background-color: #1C7293;
+    color: white;
+   
+
+
+
+}
+.comite{
+    align-items: center;
+    position: absolute;
+    left:450px;
+    margin:25px;
+}
+.example-imag{
+    position: absolute;
+    top:1050px;
+}
+#p2{
+    position : absolute;
+    left:500px;
+}
+.example-imag1{
+    position: absolute;
+    top:1300px;
+}
+#p4{
+    position : absolute;
+    left:200px;
+}
+#p5{
+    position : absolute;
+    left:400px;
+}
+#p6{
+    position : absolute;
+    left:600px;
+}#p7{
+    position : absolute;
+    left:800px;
+}
+#com{
+    font-size: 21.5px;
+    color:blanchedalmond;
+}
+/*.gallery{
+ margin :10px 50px ;
+   
+}
+
+.gallery img{
+    width:230px;
+    
+    padding:5px;
+}
+/*.project:hover .grid-overlay{
+   transform:translateY(0%);
+    
+}
+.grid-overlay{
+    background:blue;
+    height:100%;
+    grid-column:-1;
+    grid-row:-1;
+    position:relative;
+    display:grid;
+    justify-items:center;
+    transform:translateY(101%);
+    transition:all 0.3s ease-in-out;
+
+}
+.grid-overlay button{
+    background:white;
+    outline:none;
+    height:50px;
+}
+.grid-overlay button:hover{
+    transition: all 0.3s ease-in-out;
+    background: black;
+    transform:scale(1.05);
+}
+/*.overlay{
+   position:fixed;
+   background: yellowgreen;
+   top:0;
+   right: 0;
+   bottom: 0;
+   left:0;
+   display:none;
+   z-index:3;
+}
+.overlay.open{
+    display:grid;
+    align-items:center;
+    justify-items:center;
+
+}
+.overlay-inner{
+    background: blanchedalmond;
+    width:700px;
+    padding:20px;
+    position:relative;
+    opacity:1;
+}
+.close{
+    position:absolute;
+    top:3px;
+    right:10px;
+    background: url("p1.png");
+    outline: 0;
+    color:pink;
+    border:0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.close:hover{
+    color:gold;
+
+}
